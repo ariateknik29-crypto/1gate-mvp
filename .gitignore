@@ -1,11 +1,19 @@
+# Dependencies
 node_modules/
-.DS_Store
-*.local
-vite.config.ts
+
+# Environment
 .env
 .env.local
 .env.*.local
-dist/
-.vercel
-.vercel_build_output/
-!.env.example
+
+# Build output
+/dist/
+/.vercel/
+
+# OS
+.DS_Store
+*.log
+
+# User-specific
+.vscode/
+.idea/
