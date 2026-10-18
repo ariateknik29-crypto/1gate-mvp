@@ -1,5 +1,11 @@
 node_modules/
 .DS_Store
 *.local
-.vscode/
-.idea/
+vite.config.ts
+.env
+.env.local
+.env.*.local
+dist/
+.vercel
+.vercel_build_output/
+!.env.example
